@@ -1,18 +1,10 @@
-# stocktrader
+# Stock Trader
 
-> A Vue.js project
+Stock Trader is a simulator that enables you to practice your trading abilities. It is built using Vue JS and use cookies to store and load local data. Here are some features:-
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-```
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+  - Buy Stocks
+  - Sell Stocks
+  - Add your own custom Stocks.
+  - "End Day" to refresh prices of stocks.
+  - Load Data to Load saved stocks(uses cookies, so it won't work if cookies are disabled or deleted)
+  - Save Data (stores a cookie with your data)
